@@ -1,0 +1,9 @@
+
+git status
+git add how-to-do-git.txt
+git commit -m "adding a new file"
+get reflog (shows you history)
+
+<edit the file>
+git add how-to-do-git.txt
+git commit -m "intelligent comment on change"
