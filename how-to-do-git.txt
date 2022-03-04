@@ -7,3 +7,27 @@ get reflog (shows you history)
 <edit the file>
 git add how-to-do-git.txt
 git commit -m "intelligent comment on change"
+
+git remote -v (show where you are pushing to)
+
+### Time to BRANCH
+
+git checkout -b Dev   ("Dev" is branch name)
+<modify file>
+git add how-to-do-git.txt
+git commit -m "a good comment"
+## to see original
+git checkout master (or "main" instead of master)
+
+# the branch may not be on github.com
+git push --set-upstream origin Dev
+
+now go to GitHub.com and click the compare and pull.
+says Able to Merge.
+click "Create pull request" button
+click "Merge pull request" button
+click "Confirm merge" button
+
+###  now master on local does NOT have the merged master
+git pull
+(or "git fetch" and then "git merge")
